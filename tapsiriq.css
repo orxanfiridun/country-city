@@ -1,0 +1,61 @@
+.main {
+    display: flex;
+}
+
+.olke {
+    flex: 1;
+    margin-left: 6px;
+}
+
+ul.seherler {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    display: none;
+}
+
+.olke>div {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.seherler>li {
+    border: 1px solid;
+    padding: 6px;
+    position: relative;
+}
+
+.seherler>li:hover {
+    background: rgb(202, 202, 202);
+    padding-left: 10px;
+}
+
+.olke:hover>ul {
+    display: block;
+}
+
+.rayonlar {
+    position: absolute;
+    right: -45%;
+    top: 0;
+    list-style-type: none;
+    background: white;
+
+    display: none;
+}
+
+.rayonlar li {
+
+    padding: 5px;
+
+    border: 1px solid;
+    width: 105px;
+
+}
+
+.baki:hover>ul {
+    display: block;
+}
